@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#kotodamaru {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 5s ease, width 5s ease, height 5s ease, box-shadow 5s ease;
+}
+
+#inputArea {
+  margin-top: 30px;
+}
+
+#wordInput {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#sendButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#sendButton:hover {
+  background-color: #45a049;
+}
+
+#historyArea {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#historyList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#historyList li {
+  background-color: #fff;
+  margin: 5px auto;
+  padding: 8px 12px;
+  width: 220px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+#analysisArea {
+  margin-top: 30px;
+  background-color: #ffffff;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#analysisArea h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+#analysisArea p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
